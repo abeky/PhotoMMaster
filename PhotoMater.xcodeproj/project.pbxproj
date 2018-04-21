@@ -12,6 +12,7 @@
 		623C8C172084C82B009D900A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623C8C152084C82B009D900A /* Main.storyboard */; };
 		623C8C192084C82B009D900A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623C8C182084C82B009D900A /* Assets.xcassets */; };
 		623C8C1C2084C82B009D900A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623C8C1A2084C82B009D900A /* LaunchScreen.storyboard */; };
+		623C8C252084CECF009D900A /* ahirudayo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 623C8C242084CECE009D900A /* ahirudayo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		623C8C182084C82B009D900A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		623C8C1B2084C82B009D900A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		623C8C1D2084C82B009D900A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		623C8C242084CECE009D900A /* ahirudayo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ahirudayo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				623C8C132084C82B009D900A /* ViewController.swift */,
 				623C8C152084C82B009D900A /* Main.storyboard */,
 				623C8C182084C82B009D900A /* Assets.xcassets */,
+				623C8C242084CECE009D900A /* ahirudayo.jpg */,
 				623C8C1A2084C82B009D900A /* LaunchScreen.storyboard */,
 				623C8C1D2084C82B009D900A /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				623C8C1C2084C82B009D900A /* LaunchScreen.storyboard in Resources */,
 				623C8C192084C82B009D900A /* Assets.xcassets in Resources */,
+				623C8C252084CECF009D900A /* ahirudayo.jpg in Resources */,
 				623C8C172084C82B009D900A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,11 +280,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PhotoMater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhotoMater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,11 +295,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PhotoMater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.PhotoMater;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

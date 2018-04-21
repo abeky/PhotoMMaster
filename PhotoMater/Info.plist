@@ -34,6 +34,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>アルバムへのアクセス許可</string>
+	<key>Privacy - Camera Usege Description</key>
+	<string>カメラへのアクセス許可</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>アルバムへの画像保存を許可</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
